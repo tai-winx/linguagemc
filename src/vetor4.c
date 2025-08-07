@@ -18,6 +18,14 @@ int main(){
 
     }
 
+    printf("\n ============Valore digitados pelos usuários ============\n");
+    for (i = 0; i < qtd; i++)
+    {
+        printf("%d\n", vetor[i]);
+    }
+        printf("\n");
+    
+
     return 0;
 
 }
